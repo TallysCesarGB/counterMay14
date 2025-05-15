@@ -1,50 +1,40 @@
-# Welcome to your Expo app 👋
+# Contador Simples - React Native 📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
+![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-## Get started
+Um aplicativo simples de contador com interface intuitiva e feedback visual. Desenvolvido com React Native e Expo.
 
-1. Install dependencies
+![Screenshot do Contador Simples](./assets/screenshot.png)
 
-   ```bash
-   npm install
-   ```
+## Funcionalidades ✨
 
-2. Start the app
+- Incrementar contador (+1)
+- Decrementar contador (-1)
+- Resetar para zero
+- Feedback visual ao resetar
+- Design moderno com elevação e sombras
+- Interface responsiva
 
-   ```bash
-   npx expo start
-   ```
+## Tecnologias 🛠️
 
-In the output, you'll find options to open the app in a
+- React Native
+- Expo
+- JavaScript
+- StyleSheet
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Como Executar 🚀
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Pré-requisitos
 
-## Get a fresh project
+- Node.js (v16 ou superior)
+- npm ou yarn
+- Expo CLI instalado globalmente (`npm install -g expo-cli`)
 
-When you're ready, run:
+### Instalação
+
+1. Clone o repositório:
 
 ```bash
-npm run reset-project
+git clone https://github.com/TallysCesarGB/counterMay14
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
